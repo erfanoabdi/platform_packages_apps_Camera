@@ -52,4 +52,9 @@ android_app {
     jni_libs : ["libimage_processing_util_jni"],
 
     platform_apis: true,
+
+    aaptflags: [
+        "--rename-manifest-package",
+        "com.libremobileos.camera",
+    ],
 }
