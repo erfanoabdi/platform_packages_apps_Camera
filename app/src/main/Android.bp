@@ -25,6 +25,7 @@ android_app {
         "java/**/*.java",
         "java/**/*.kt",
         "java_aosp/**/*.java",
+        "databinding/**/*.java",
     ],
 
     system_ext_specific: true,
